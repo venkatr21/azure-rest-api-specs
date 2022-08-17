@@ -483,13 +483,12 @@
           "properties": {
             "type": {
               "type": "string",
-              "x-ms-client-name": "type",
               "enum": [
                 "SystemAssigned",
                 "UserAssigned"
               ],
               "x-ms-enum": {
-                "name": "type",
+                "x-ms-client-name": "type",
                 "modelAsString": true
               },
               "description": "Managed identity type to use for accessing encryption key Url"
