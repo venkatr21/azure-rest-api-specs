@@ -483,6 +483,7 @@
           "properties": {
             "type": {
               "type": "string",
+              "x-ms-client-name": "type",
               "enum": [
                 "SystemAssigned",
                 "UserAssigned"
