@@ -482,15 +482,12 @@
           "description": "All identity configuration for Customer-managed key settings defining which identity should be used to auth to Key Vault.",
           "properties": {
             "type": {
+              "name": "type",
               "type": "string",
               "enum": [
                 "SystemAssigned",
                 "UserAssigned"
               ],
-              "x-ms-enum": {
-                "name": "Type",
-                "modelAsString": true
-              },
               "description": "Managed identity type to use for accessing encryption key Url"
             },
             "resourceId": {
