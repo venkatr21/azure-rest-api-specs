@@ -482,7 +482,7 @@
           "description": "All identity configuration for Customer-managed key settings defining which identity should be used to auth to Key Vault.",
           "properties": {
             "type": {
-              "name": "type",
+              "x-ms-client-name": "type",
               "type": "string",
               "enum": [
                 "SystemAssigned",
